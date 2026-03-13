@@ -1,7 +1,7 @@
 window.NTP_CONFIG = {
   organization: {
     email: "info@rppnepal.org",
-    phone: "+1",
+    phone: "+1 (720) 466-0078",
     address: "Kathmandu, Nepal",
     social: {
       facebook: "#rppnepal",
