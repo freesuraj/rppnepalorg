@@ -1,13 +1,13 @@
 window.NTP_CONFIG = {
   organization: {
-    email: "Replace with official email",
-    phone: "Replace with official phone",
-    address: "Replace with office address",
+    email: "info@rppnepal.org",
+    phone: "+1",
+    address: "Kathmandu, Nepal",
     social: {
-      facebook: "#",
-      instagram: "#",
-      tiktok: "#",
-      x: "#"
+      facebook: "#rppnepal",
+      instagram: "#rppnepal",
+      tiktok: "#rppnepal",
+      x: "#rppnepal"
     }
   },
   donation: {
@@ -18,8 +18,8 @@ window.NTP_CONFIG = {
     bankAccountName: "Replace with account holder name"
   },
   supabase: {
-    url: "Replace with Supabase project URL",
-    anonKey: "Replace with Supabase anon key",
+    url: "https://ulxzjnddtcsmoxmfgfuy.supabase.co",
+    anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVseHpqbmRkdGNzbW94bWZnZnV5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMzNTE1MzYsImV4cCI6MjA4ODkyNzUzNn0.MvbYX0vXHaG0k7dNg_XodQjQv7ZH1bas6Wu35IO5mo0",
     table: "movement_signups"
   }
 };

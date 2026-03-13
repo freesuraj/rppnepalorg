@@ -88,3 +88,6 @@ Because the site is static, the join form depends on Supabase being configured b
 - Nepali is the default language.
 - The contact and donation sections are config-driven so you can change public details without rewriting page markup.
 - The join form includes a hidden honeypot field for a minimal spam check, but a public form can still attract abuse. If you need stronger protection later, add CAPTCHA or route submissions through a server-side function.
+
+## Last Updated
+13 March 2026.
