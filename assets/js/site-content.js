@@ -223,7 +223,7 @@ window.NTP_TRANSLATIONS = {
         kicker: "सदस्यता फारम",
         title: "तपाईंको आधारभूत विवरण पठाउनुहोस्",
         description:
-          "यो फारम GitHub Pages मा चल्ने वेबसाइटबाट सीधै सुरक्षित डेटाबेसमा जान्छ, जसले आयोजकलाई द्रुत समन्वय गर्न मद्दत गर्छ।",
+          "यो फारम सीधै सुरक्षित डेटाबेसमा जान्छ, जसले आयोजकलाई द्रुत समन्वय गर्न मद्दत गर्छ।",
         nameLabel: "पुरा नाम",
         namePlaceholder: "जस्तै: सुशिला गुरुङ",
         emailLabel: "इमेल",
@@ -548,7 +548,7 @@ window.NTP_TRANSLATIONS = {
         kicker: "Membership form",
         title: "Send your basic details",
         description:
-          "This form submits directly from a GitHub Pages site into a secure database, making it easy for organisers to coordinate quickly.",
+          "This form submits directly into a secure database, making it easy for organisers to coordinate quickly.",
         nameLabel: "Full name",
         namePlaceholder: "Example: Sushila Gurung",
         emailLabel: "Email",

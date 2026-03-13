@@ -690,6 +690,15 @@ select {
   padding: clamp(1.3rem, 3vw, 2rem);
 }
 
+.form-shell-priority {
+  grid-template-columns: minmax(0, 1.35fr) minmax(260px, 0.78fr);
+}
+
+.form-stack {
+  display: grid;
+  gap: 1rem;
+}
+
 .join-form {
   border-radius: var(--radius-lg);
   padding: 1.35rem;
@@ -766,6 +775,45 @@ select {
 .form-note-card {
   border-radius: var(--radius-lg);
   padding: 1.35rem;
+}
+
+.bullet-panel {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.panel-divider {
+  width: 100%;
+  height: 1px;
+  margin: 0.15rem 0 0.35rem;
+  background: linear-gradient(90deg, rgba(53, 88, 114, 0.08), rgba(53, 88, 114, 0.32), rgba(53, 88, 114, 0.08));
+}
+
+.bullet-list {
+  display: grid;
+  gap: 0.9rem;
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+}
+
+.bullet-list li::marker {
+  color: var(--primary);
+}
+
+.bullet-list strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--ink);
+}
+
+.bullet-list p {
+  margin: 0;
+  line-height: 1.68;
+}
+
+body[data-page="join"] .page-hero {
+  padding-bottom: 1rem;
 }
 
 .placeholder-value {
