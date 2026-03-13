@@ -98,17 +98,12 @@ select {
 }
 
 .brand-mark {
-  display: inline-grid;
-  place-items: center;
+  display: block;
   width: 3.2rem;
   height: 3.2rem;
   border-radius: 1rem;
-  color: white;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  background:
-    linear-gradient(135deg, var(--accent-red), #cb542e),
-    var(--accent-red);
+  object-fit: contain;
+  background: white;
   box-shadow: var(--shadow-soft);
 }
 
