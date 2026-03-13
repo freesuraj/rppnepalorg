@@ -1,13 +1,13 @@
 window.NTP_CONFIG = {
   organization: {
-    email: "Replace with official email",
-    phone: "Replace with official phone",
-    address: "Replace with office address",
+    email: "info@rppnepal.org",
+    phone: "+1 (720) 466-0078",
+    address: "Kathmandu, Nepal",
     social: {
-      facebook: "#",
-      instagram: "#",
-      tiktok: "#",
-      x: "#"
+      facebook: "#rppnepal",
+      instagram: "#rppnepal",
+      tiktok: "#rppnepal",
+      x: "#rppnepal"
     }
   },
   donation: {
