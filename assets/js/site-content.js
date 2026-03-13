@@ -1,7 +1,7 @@
 window.NTP_TRANSLATIONS = {
   ne: {
     brand: {
-      short: "NTP",
+      short: "RPP Nepal",
       long: "राष्ट्रिय पारदर्शि पार्टी नेपाल"
     },
     pages: {
@@ -326,7 +326,7 @@ window.NTP_TRANSLATIONS = {
   },
   en: {
     brand: {
-      short: "NTP",
+      short: "RPP Nepal",
       long: "National Transparency Party Nepal"
     },
     pages: {
