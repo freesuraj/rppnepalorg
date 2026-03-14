@@ -7,33 +7,40 @@ content:
     label: Site-Wide Content
     type: file
     path: content/site.json
+    format: json
 
   - name: settings
     label: Public Settings
     type: file
     path: content/settings.json
+    format: json
 
   - name: home
     label: Home Page
     type: file
     path: content/pages/home.json
+    format: json
 
   - name: mission
     label: Mission Page
     type: file
     path: content/pages/mission.json
+    format: json
 
   - name: contact
     label: Contact Page
     type: file
     path: content/pages/contact.json
+    format: json
 
   - name: join
     label: Join Page
     type: file
     path: content/pages/join.json
+    format: json
 
   - name: donation
     label: Donation Page
     type: file
     path: content/pages/donation.json
+    format: json

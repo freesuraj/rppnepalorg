@@ -29,3 +29,29 @@ on public.movement_signups
 for insert
 to anon
 with check (consent is true);
+
+create table if not exists public.message (
+  id uuid primary key default gen_random_uuid(),
+  created_at timestamptz not null default timezone('utc', now()),
+  full_name text not null check (char_length(trim(full_name)) between 2 and 120),
+  email text not null check (char_length(trim(email)) between 5 and 255),
+  phone text,
+  message text not null check (char_length(trim(message)) between 10 and 4000),
+  source_language text not null default 'ne' check (source_language in ('ne', 'en')),
+  review_status text not null default 'new' check (
+    review_status in ('new', 'reviewed', 'replied', 'archived')
+  )
+);
+
+create index if not exists message_created_at_idx
+  on public.message (created_at desc);
+
+alter table public.message enable row level security;
+
+drop policy if exists "Public can insert messages" on public.message;
+
+create policy "Public can insert messages"
+on public.message
+for insert
+to anon
+with check (true);

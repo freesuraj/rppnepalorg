@@ -2,6 +2,7 @@ window.NTP_CONFIG = {
   supabase: {
     url: "Replace with Supabase project URL",
     anonKey: "Replace with Supabase anon key",
-    table: "movement_signups"
+    movementTable: "movement_signups",
+    messageTable: "message"
   }
 };

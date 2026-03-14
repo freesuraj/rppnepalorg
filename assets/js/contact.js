@@ -4,16 +4,15 @@
     await siteApi.ready;
   }
 
-  const form = document.getElementById("join-form");
-  const statusElement = document.getElementById("form-status");
+  const form = document.getElementById("contact-form");
+  const statusElement = document.getElementById("contact-form-status");
 
   if (!form || !statusElement) {
     return;
   }
 
   const supabaseConfig = (window.NTP_CONFIG && window.NTP_CONFIG.supabase) || {};
-  const tableName =
-    supabaseConfig.movementTable || supabaseConfig.table || "movement_signups";
+  const tableName = supabaseConfig.messageTable || "message";
   let lastStatusKey = "";
 
   function translate(key) {
@@ -33,10 +32,13 @@
     return (
       typeof supabaseConfig.url === "string" &&
       typeof supabaseConfig.anonKey === "string" &&
+      typeof tableName === "string" &&
       supabaseConfig.url.trim().length > 0 &&
       supabaseConfig.anonKey.trim().length > 0 &&
+      tableName.trim().length > 0 &&
       !/replace with/i.test(supabaseConfig.url) &&
-      !/replace with/i.test(supabaseConfig.anonKey)
+      !/replace with/i.test(supabaseConfig.anonKey) &&
+      !/replace with/i.test(tableName)
     );
   }
 
@@ -52,45 +54,36 @@
     const fullName = String(formData.get("full_name") || "").trim();
     const email = String(formData.get("email") || "").trim();
     const phone = String(formData.get("phone") || "").trim();
+    const message = String(formData.get("message") || "").trim();
     const website = String(formData.get("website") || "").trim();
-    const consent = formData.get("consent") === "on";
 
     if (website) {
-      setStatus("formMessages.spam", "error");
+      setStatus("contactFormMessages.spam", "error");
       return;
     }
 
-    if (!fullName || !email || !phone) {
-      setStatus("formMessages.validation", "error");
-      return;
-    }
-
-    if (!consent) {
-      setStatus("formMessages.consent", "error");
+    if (!fullName || !email || !message) {
+      setStatus("contactFormMessages.validation", "error");
       return;
     }
 
     if (!isConfigured()) {
-      setStatus("formMessages.configMissing", "error");
+      setStatus("contactFormMessages.configMissing", "error");
       return;
     }
 
     const payload = {
       full_name: fullName,
       email,
-      phone,
-      tiktok: normalizeOptional(String(formData.get("tiktok") || "")),
-      instagram: normalizeOptional(String(formData.get("instagram") || "")),
-      facebook: normalizeOptional(String(formData.get("facebook") || "")),
-      x_profile: normalizeOptional(String(formData.get("x_profile") || "")),
-      consent: true,
+      phone: normalizeOptional(phone),
+      message,
       source_language:
         typeof siteApi.getCurrentLanguage === "function"
           ? siteApi.getCurrentLanguage()
           : "ne"
     };
 
-    setStatus("formMessages.submitting", "loading");
+    setStatus("contactFormMessages.submitting", "loading");
 
     try {
       const response = await window.fetch(
@@ -112,10 +105,10 @@
       }
 
       form.reset();
-      setStatus("formMessages.success", "success");
+      setStatus("contactFormMessages.success", "success");
     } catch (error) {
       console.error(error);
-      setStatus("formMessages.error", "error");
+      setStatus("contactFormMessages.error", "error");
     }
   }
 

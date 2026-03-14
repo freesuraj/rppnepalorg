@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <script src="assets/js/site-config.js" defer></script>
     <script src="assets/js/site.js" defer></script>
+    <script src="assets/js/contact.js" defer></script>
   </head>
   <body data-page="contact" data-page-title="pages.contact">
     <header class="site-header">
@@ -67,26 +68,73 @@
 
       <section class="section">
         <div class="shell contact-grid">
-          <div class="detail-panel">
-            <div class="section-heading compact">
-              <span class="eyebrow" data-i18n="contact.methods.kicker"></span>
-              <h2 data-i18n="contact.methods.title"></h2>
-              <p data-i18n="contact.methods.description"></p>
-            </div>
+          <div class="form-shell contact-form-shell">
+            <div class="form-stack">
+              <div class="section-heading compact">
+                <span class="eyebrow" data-i18n="contact.form.kicker"></span>
+                <h2 data-i18n="contact.form.title"></h2>
+                <p data-i18n="contact.form.description"></p>
+              </div>
 
-            <div class="detail-list">
-              <article class="detail-item">
-                <span data-i18n="contact.labels.email"></span>
-                <a href="#" data-config="organization.email" data-config-type="email"></a>
-              </article>
-              <article class="detail-item">
-                <span data-i18n="contact.labels.phone"></span>
-                <a href="#" data-config="organization.phone" data-config-type="tel"></a>
-              </article>
-              <article class="detail-item">
-                <span data-i18n="contact.labels.address"></span>
-                <p data-config="organization.address"></p>
-              </article>
+              <form class="join-form" id="contact-form" novalidate>
+                <input type="hidden" name="website" autocomplete="off" tabindex="-1">
+
+                <div class="field-grid">
+                  <label class="field">
+                    <span data-i18n="contact.form.nameLabel"></span>
+                    <input
+                      type="text"
+                      name="full_name"
+                      required
+                      maxlength="120"
+                      autocomplete="name"
+                      data-i18n-placeholder="contact.form.namePlaceholder"
+                    >
+                  </label>
+
+                  <label class="field">
+                    <span data-i18n="contact.form.emailLabel"></span>
+                    <input
+                      type="email"
+                      name="email"
+                      required
+                      maxlength="255"
+                      autocomplete="email"
+                      data-i18n-placeholder="contact.form.emailPlaceholder"
+                    >
+                  </label>
+
+                  <label class="field">
+                    <span data-i18n="contact.form.phoneLabel"></span>
+                    <input
+                      type="tel"
+                      name="phone"
+                      maxlength="40"
+                      autocomplete="tel"
+                      inputmode="tel"
+                      data-i18n-placeholder="contact.form.phonePlaceholder"
+                    >
+                  </label>
+
+                  <label class="field field-full">
+                    <span data-i18n="contact.form.messageLabel"></span>
+                    <textarea
+                      name="message"
+                      required
+                      maxlength="4000"
+                      rows="7"
+                      data-i18n-placeholder="contact.form.messagePlaceholder"
+                    ></textarea>
+                  </label>
+                </div>
+
+                <div class="form-actions">
+                  <button class="button button-primary" type="submit" data-i18n="contact.form.submit"></button>
+                  <p class="form-note" data-i18n="contact.form.privacy"></p>
+                </div>
+
+                <p class="status-message" id="contact-form-status" role="status" aria-live="polite"></p>
+              </form>
             </div>
           </div>
 
@@ -107,16 +155,6 @@
                   <strong data-i18n="contact.expect.pointThreeTitle"></strong>
                   <p data-i18n="contact.expect.pointThreeDescription"></p>
                 </div>
-              </div>
-            </article>
-
-            <article class="info-card info-card-accent">
-              <h3 data-i18n="contact.socialTitle"></h3>
-              <div class="social-grid">
-                <a href="#" data-config="organization.social.facebook" data-config-type="url">Facebook</a>
-                <a href="#" data-config="organization.social.instagram" data-config-type="url">Instagram</a>
-                <a href="#" data-config="organization.social.tiktok" data-config-type="url">TikTok</a>
-                <a href="#" data-config="organization.social.x" data-config-type="url">X</a>
               </div>
             </article>
           </aside>
@@ -153,6 +191,13 @@
             <li>
               <span data-config="organization.address"></span>
             </li>
+          </ul>
+          <h3 class="footer-subheading" data-i18n="footer.socialTitle"></h3>
+          <ul class="footer-links footer-links-compact">
+            <li><a href="#" data-config="organization.social.facebook" data-config-type="url">Facebook</a></li>
+            <li><a href="#" data-config="organization.social.instagram" data-config-type="url">Instagram</a></li>
+            <li><a href="#" data-config="organization.social.tiktok" data-config-type="url">TikTok</a></li>
+            <li><a href="#" data-config="organization.social.x" data-config-type="url">X</a></li>
           </ul>
         </div>
       </div>

@@ -33,6 +33,32 @@
       "en": "Coming soon"
     }
   },
+  "contactFormMessages": {
+    "configMissing": {
+      "ne": "सम्पर्क फारमको डेटाबेस अझै अपडेट गरिएको छैन। assets/js/site-config.js मा Supabase URL, anon key र message table सेट गर्नुहोस्।",
+      "en": "The contact form database is not configured yet. Set the Supabase URL, anon key, and message table in assets/js/site-config.js."
+    },
+    "error": {
+      "ne": "अहिले सन्देश पठाउन सकिएन। कृपया केही समयपछि पुन: प्रयास गर्नुहोस्।",
+      "en": "Your message could not be sent right now. Please try again shortly."
+    },
+    "spam": {
+      "ne": "सन्देश पठाउन सकिएन।",
+      "en": "The message could not be sent."
+    },
+    "submitting": {
+      "ne": "तपाईंको सन्देश पठाइँदैछ...",
+      "en": "Sending your message..."
+    },
+    "success": {
+      "ne": "धन्यवाद। तपाईंको सन्देश सफलतापूर्वक सुरक्षित गरियो।",
+      "en": "Thank you. Your message was saved successfully."
+    },
+    "validation": {
+      "ne": "कृपया नाम, इमेल र सन्देश सही रूपमा भर्नुहोस्।",
+      "en": "Please enter a valid name, email, and message."
+    }
+  },
   "footer": {
     "contactTitle": {
       "ne": "सम्पर्क",
@@ -42,6 +68,10 @@
       "ne": "द्रुत लिंक",
       "en": "Quick Links"
     },
+    "socialTitle": {
+      "ne": "सामाजिक सञ्जाल",
+      "en": "Social Media"
+    },
     "tagline": {
       "ne": "पारदर्शी निर्णय, सार्वजनिक लेखाजोखा र नागरिक नेतृत्वको राजनीतिका लागि सामुहिक अभियान।",
       "en": "A civic movement for open decisions, public accounting, and citizen-led politics."
@@ -49,8 +79,8 @@
   },
   "formMessages": {
     "configMissing": {
-      "ne": "फारमको डेटाबेस अझै अपडेट गरिएको छैन। assets/js/site-config.js मा Supabase URL र anon key राख्नुहोस्।",
-      "en": "The database connection is not configured yet. Add the Supabase URL and anon key in assets/js/site-config.js."
+      "ne": "फारमको डेटाबेस अझै अपडेट गरिएको छैन। assets/js/site-config.js मा Supabase URL, anon key र movement table राख्नुहोस्।",
+      "en": "The database connection is not configured yet. Add the Supabase URL, anon key, and movement table in assets/js/site-config.js."
     },
     "consent": {
       "ne": "कृपया सहमति पुष्टि गर्नुहोस्।",

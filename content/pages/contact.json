@@ -33,6 +33,60 @@
       "en": "What happens after you reach out?"
     }
   },
+  "form": {
+    "description": {
+      "ne": "तलको फारम भर्नुहोस्। तपाईंको सन्देश सीधै हाम्रो सम्पर्क रेकर्डमा सुरक्षित हुनेछ र आवश्यक परे सम्बन्धित टोलीमा पठाइनेछ।",
+      "en": "Fill in the form below. Your message will be saved directly in our contact records and routed to the relevant team when needed."
+    },
+    "emailLabel": {
+      "ne": "इमेल",
+      "en": "Email"
+    },
+    "emailPlaceholder": {
+      "ne": "तपाईंको इमेल",
+      "en": "Your email address"
+    },
+    "kicker": {
+      "ne": "हामीलाई सन्देश पठाउनुहोस्",
+      "en": "Send Us a Message"
+    },
+    "messageLabel": {
+      "ne": "सन्देश",
+      "en": "Message"
+    },
+    "messagePlaceholder": {
+      "ne": "तपाईं किन सम्पर्क गर्दै हुनुहुन्छ? छोटकरीमा लेख्नुहोस्।",
+      "en": "Why are you reaching out? Share the main details here."
+    },
+    "nameLabel": {
+      "ne": "पूरा नाम",
+      "en": "Full name"
+    },
+    "namePlaceholder": {
+      "ne": "तपाईंको नाम",
+      "en": "Your full name"
+    },
+    "phoneLabel": {
+      "ne": "फोन",
+      "en": "Phone"
+    },
+    "phonePlaceholder": {
+      "ne": "वैकल्पिक फोन नम्बर",
+      "en": "Optional phone number"
+    },
+    "privacy": {
+      "ne": "तपाईंको सन्देश आन्तरिक सम्पर्क व्यवस्थापनका लागि मात्र प्रयोग गरिनेछ।",
+      "en": "Your message will only be used for internal contact management."
+    },
+    "submit": {
+      "ne": "सन्देश पठाउनुहोस्",
+      "en": "Send Message"
+    },
+    "title": {
+      "ne": "सीधै हामीलाई लेख्नुहोस्",
+      "en": "Write to us directly"
+    }
+  },
   "hero": {
     "description": {
       "ne": "स्वयंसेवक समन्वय, पत्रकारिता प्रश्न, साझेदारी वा स्थानीय सभा आयोजना, सबैका लागि एउटै स्पष्ट सम्पर्क संरचना।",
