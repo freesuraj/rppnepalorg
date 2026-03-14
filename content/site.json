@@ -19,7 +19,7 @@
   },
   "brand": {
     "long": {
-      "ne": "राष्ट्रिय पारदर्शि पार्टी नेपाल",
+      "ne": "राष्ट्रिय पारदर्शी पार्टी नेपाल",
       "en": "National Transparency Party Nepal"
     },
     "short": {
@@ -43,13 +43,13 @@
       "en": "Quick Links"
     },
     "tagline": {
-      "ne": "खुला निर्णय, सार्वजनिक लेखाजोखा र नागरिक नेतृत्वको राजनीतिका लागि सामूहिक अभियान।",
+      "ne": "पारदर्शी निर्णय, सार्वजनिक लेखाजोखा र नागरिक नेतृत्वको राजनीतिका लागि सामुहिक अभियान।",
       "en": "A civic movement for open decisions, public accounting, and citizen-led politics."
     }
   },
   "formMessages": {
     "configMissing": {
-      "ne": "फारमको डेटाबेस जडान अझै सेट गरिएको छैन। assets/js/site-config.js मा Supabase URL र anon key राख्नुहोस्।",
+      "ne": "फारमको डेटाबेस अझै अपडेट गरिएको छैन। assets/js/site-config.js मा Supabase URL र anon key राख्नुहोस्।",
       "en": "The database connection is not configured yet. Add the Supabase URL and anon key in assets/js/site-config.js."
     },
     "consent": {
