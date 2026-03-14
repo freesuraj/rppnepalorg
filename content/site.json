@@ -1,0 +1,124 @@
+{
+  "actions": {
+    "contact": {
+      "ne": "सम्पर्क गर्नुहोस्",
+      "en": "Contact Us"
+    },
+    "donate": {
+      "ne": "सहयोग गर्नुहोस्",
+      "en": "Support the Cause"
+    },
+    "join": {
+      "ne": "अभियानमा सहभागी हुनुहोस्",
+      "en": "Join the Movement"
+    },
+    "mission": {
+      "ne": "हाम्रो अभियान हेर्नुहोस्",
+      "en": "Explore Our Mission"
+    }
+  },
+  "brand": {
+    "long": {
+      "ne": "राष्ट्रिय पारदर्शि पार्टी नेपाल",
+      "en": "National Transparency Party Nepal"
+    },
+    "short": {
+      "ne": "RPP Nepal",
+      "en": "RPP Nepal"
+    }
+  },
+  "common": {
+    "pending": {
+      "ne": "चाँडै उपलब्ध हुनेछ",
+      "en": "Coming soon"
+    }
+  },
+  "footer": {
+    "contactTitle": {
+      "ne": "सम्पर्क",
+      "en": "Contact"
+    },
+    "quickLinksTitle": {
+      "ne": "द्रुत लिंक",
+      "en": "Quick Links"
+    },
+    "tagline": {
+      "ne": "खुला निर्णय, सार्वजनिक लेखाजोखा र नागरिक नेतृत्वको राजनीतिका लागि सामूहिक अभियान।",
+      "en": "A civic movement for open decisions, public accounting, and citizen-led politics."
+    }
+  },
+  "formMessages": {
+    "configMissing": {
+      "ne": "फारमको डेटाबेस जडान अझै सेट गरिएको छैन। assets/js/site-config.js मा Supabase URL र anon key राख्नुहोस्।",
+      "en": "The database connection is not configured yet. Add the Supabase URL and anon key in assets/js/site-config.js."
+    },
+    "consent": {
+      "ne": "कृपया सहमति पुष्टि गर्नुहोस्।",
+      "en": "Please confirm your consent before submitting."
+    },
+    "error": {
+      "ne": "अहिले फारम पठाउन सकिएन। कृपया केही समयपछि पुन: प्रयास गर्नुहोस्।",
+      "en": "The form could not be submitted right now. Please try again shortly."
+    },
+    "spam": {
+      "ne": "फारम पठाउन सकिएन।",
+      "en": "The form could not be submitted."
+    },
+    "submitting": {
+      "ne": "तपाईंको विवरण पठाइँदैछ...",
+      "en": "Submitting your details..."
+    },
+    "success": {
+      "ne": "धन्यवाद। तपाईंको विवरण सफलतापूर्वक सुरक्षित गरियो।",
+      "en": "Thank you. Your details were saved successfully."
+    },
+    "validation": {
+      "ne": "कृपया नाम, इमेल र फोन सही रूपमा भर्नुहोस्।",
+      "en": "Please enter a valid name, email, and phone number."
+    }
+  },
+  "nav": {
+    "contact": {
+      "ne": "सम्पर्क",
+      "en": "Contact Us"
+    },
+    "donation": {
+      "ne": "सहयोग",
+      "en": "Donation"
+    },
+    "home": {
+      "ne": "गृहपृष्ठ",
+      "en": "Home"
+    },
+    "join": {
+      "ne": "अभियानमा सहभागी हुनुहोस्",
+      "en": "Join the Movement"
+    },
+    "mission": {
+      "ne": "हाम्रो अभियान",
+      "en": "Our Mission"
+    }
+  },
+  "pages": {
+    "contact": {
+      "ne": "सम्पर्क",
+      "en": "Contact Us"
+    },
+    "donation": {
+      "ne": "सहयोग",
+      "en": "Donation"
+    },
+    "home": {
+      "ne": "गृहपृष्ठ",
+      "en": "Home"
+    },
+    "join": {
+      "ne": "अभियानमा सहभागी हुनुहोस्",
+      "en": "Join the Movement"
+    },
+    "mission": {
+      "ne": "हाम्रो अभियान",
+      "en": "Our Mission"
+    }
+  }
+}

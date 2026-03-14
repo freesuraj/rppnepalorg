@@ -1,0 +1,82 @@
+{
+  "expect": {
+    "description": {
+      "ne": "हामीले प्राप्त सन्देशलाई वर्गीकृत गरेर उचित टोलीमा पठाउने संरचना बनाएका छौं।",
+      "en": "We aim to route every message to the right organiser or team with a basic follow-up process."
+    },
+    "pointOneDescription": {
+      "ne": "आधिकारिक कामकाजी दिनमा प्राथमिक जवाफ दिने लक्ष्य।",
+      "en": "Primary responses are targeted during standard working days."
+    },
+    "pointOneTitle": {
+      "ne": "२४-४८ घण्टाभित्र प्रतिक्रिया",
+      "en": "Reply within 24-48 hours"
+    },
+    "pointThreeDescription": {
+      "ne": "महत्त्वपूर्ण अनुरोध वा साझेदारीका लागि ट्र्याक हुने प्रतिवेदन।",
+      "en": "Important requests or partnership discussions should receive structured follow-up."
+    },
+    "pointThreeTitle": {
+      "ne": "रेकर्ड गरिएको फलो-अप",
+      "en": "Tracked follow-up"
+    },
+    "pointTwoDescription": {
+      "ne": "जिल्ला वा विषयगत माग अनुसार सम्बन्धित व्यक्तिसँग समन्वय।",
+      "en": "Requests can be passed to district or issue-specific coordinators when needed."
+    },
+    "pointTwoTitle": {
+      "ne": "स्थानीय टोलीसँग जोडाइ",
+      "en": "Local handoff"
+    },
+    "title": {
+      "ne": "सम्पर्क गर्दा के हुन्छ?",
+      "en": "What happens after you reach out?"
+    }
+  },
+  "hero": {
+    "description": {
+      "ne": "स्वयंसेवक समन्वय, पत्रकारिता प्रश्न, साझेदारी वा स्थानीय सभा आयोजना, सबैका लागि एउटै स्पष्ट सम्पर्क संरचना।",
+      "en": "Volunteer coordination, media questions, partnerships, or local event planning all need a clear and accessible contact structure."
+    },
+    "kicker": {
+      "ne": "सम्पर्क",
+      "en": "Contact"
+    },
+    "title": {
+      "ne": "हामीसँग जोडिने सबै बाटो खुला हुनुपर्छ",
+      "en": "Every path to reach us should be open"
+    }
+  },
+  "labels": {
+    "address": {
+      "ne": "ठेगाना",
+      "en": "Address"
+    },
+    "email": {
+      "ne": "इमेल",
+      "en": "Email"
+    },
+    "phone": {
+      "ne": "फोन",
+      "en": "Phone"
+    }
+  },
+  "methods": {
+    "description": {
+      "ne": "तपाईंको सन्देशलाई उचित टोलीसम्म छिटो पुर्‍याउन हाम्रो सम्पर्क विवरण एउटै स्थानमा राखिएको छ।",
+      "en": "Our key contact details are collected in one place so your message reaches the right team quickly."
+    },
+    "kicker": {
+      "ne": "सम्पर्क माध्यम",
+      "en": "Contact channels"
+    },
+    "title": {
+      "ne": "हामीसँग जोडिने सरल तरिका",
+      "en": "A simple way to reach the team"
+    }
+  },
+  "socialTitle": {
+    "ne": "सामाजिक सञ्जाल",
+    "en": "Social media"
+  }
+}

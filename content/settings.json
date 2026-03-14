@@ -1,0 +1,20 @@
+{
+  "organization": {
+    "email": "info@rppnepal.org",
+    "phone": "+1 (720) 466-0078",
+    "address": "Kathmandu, Nepal",
+    "social": {
+      "facebook": "#rppnepal",
+      "instagram": "#rppnepal",
+      "tiktok": "#rppnepal",
+      "x": "#rppnepal"
+    }
+  },
+  "donation": {
+    "esewaId": "Replace with eSewa ID",
+    "khaltiId": "Replace with Khalti ID",
+    "bankName": "Replace with bank name",
+    "bankAccountNumber": "Replace with account number",
+    "bankAccountName": "Replace with account holder name"
+  }
+}

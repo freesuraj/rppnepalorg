@@ -1,0 +1,184 @@
+{
+  "cta": {
+    "contactDescription": {
+      "ne": "स्थानीय समन्वय, साझेदारी वा प्रेस समन्वयका लागि हामीसँग जोडिनुहोस्।",
+      "en": "Reach out for local organising, partnerships, or media coordination."
+    },
+    "contactTitle": {
+      "ne": "सिधा संवाद",
+      "en": "Direct coordination"
+    },
+    "description": {
+      "ne": "सदस्य बन्नुहोस्, आर्थिक साथ दिनुहोस्, वा हामीलाई सिधै सम्पर्क गर्नुहोस्।",
+      "en": "Join as a member, support financially, or contact the team directly."
+    },
+    "donationDescription": {
+      "ne": "प्रत्येक सहयोगको उद्देश्य, उपयोग र रिपोर्ट सार्वजनिक गर्ने वाचा।",
+      "en": "A commitment to report the purpose, use, and impact of every contribution."
+    },
+    "donationTitle": {
+      "ne": "पारदर्शी सहयोग",
+      "en": "Transparent support"
+    },
+    "joinDescription": {
+      "ne": "तपाईंको नाम, सम्पर्क र सामाजिक पहुँचले स्थानीय अभियानलाई बल दिन्छ।",
+      "en": "Your name, contact details, and social reach can strengthen local organising."
+    },
+    "joinTitle": {
+      "ne": "आन्दोलनमा सहभागी",
+      "en": "Join the movement"
+    },
+    "kicker": {
+      "ne": "अहिले नै सुरु गर्नुहोस्",
+      "en": "Start now"
+    },
+    "title": {
+      "ne": "आन्दोलनलाई शब्द होइन, संरचना चाहिन्छ",
+      "en": "A movement needs structure, not slogans"
+    }
+  },
+  "hero": {
+    "description": {
+      "ne": "राष्ट्रिय पारदर्शिता पार्टी नेपाल सार्वजनिक स्रोत, सार्वजनिक निर्णय र सार्वजनिक विश्वासबीचको दूरी घटाउन बनेको अभियान हो। हामी यस्तो राजनीति निर्माण गर्न चाहन्छौं जसले आफूलाई जनताबाट लुकाउँदैन।",
+      "en": "National Transparency Party Nepal is building a political movement that closes the gap between public money, public decisions, and public trust. We believe politics should never hide from the people it serves."
+    },
+    "kicker": {
+      "ne": "जनताको विश्वास, पारदर्शिताबाट",
+      "en": "Public trust begins with transparency"
+    },
+    "panelItemOne": {
+      "ne": "नेतृत्व तहदेखि स्थानीय इकाइसम्म आम्दानी, खर्च र निर्णय सार्वजनिक गर्ने डिजिटल प्रणाली।",
+      "en": "A digital system that publishes income, spending, and decisions from leadership to local teams."
+    },
+    "panelItemThree": {
+      "ne": "नीति निर्माणमा विशेषज्ञ, समुदाय र युवाको खुला सहभागिता।",
+      "en": "Open participation from experts, communities, and young people in policy design."
+    },
+    "panelItemTwo": {
+      "ne": "सदस्य, स्वयंसेवक र दाताका लागि स्पष्ट भूमिका, स्पष्ट जवाफदेही र स्पष्ट प्रतिवेदन।",
+      "en": "Clear roles, clear accountability, and clear reporting for members, volunteers, and donors."
+    },
+    "panelLabel": {
+      "ne": "नागरिक पर्यवेक्षण चार्टर",
+      "en": "Citizen Oversight Charter"
+    },
+    "panelTitle": {
+      "ne": "हामी कसरी फरक काम गर्छौं",
+      "en": "How we operate differently"
+    },
+    "statOneLabel": {
+      "ne": "आर्थिक खुलापनको प्रतिबद्धता",
+      "en": "Commitment to financial openness"
+    },
+    "statOneValue": {
+      "ne": "100%",
+      "en": "100%"
+    },
+    "statThreeLabel": {
+      "ne": "देश, साझा सार्वजनिक मापदण्ड",
+      "en": "Shared public standard across the country"
+    },
+    "statThreeValue": {
+      "ne": "1",
+      "en": "1"
+    },
+    "statTwoLabel": {
+      "ne": "जनताले हेर्न मिल्ने निर्णय अभिलेख",
+      "en": "Accessible decision records"
+    },
+    "statTwoValue": {
+      "ne": "24/7",
+      "en": "24/7"
+    },
+    "title": {
+      "ne": "साफ शासन, खुला निर्णय र जनताप्रति जवाफदेह राजनीति",
+      "en": "Clean governance, open decisions, and accountable politics"
+    }
+  },
+  "manifesto": {
+    "description": {
+      "ne": "हामी भ्रष्टाचारको विरोध मात्र गर्दै छैनौं। हामी विश्वास योग्य शासनको नमुना प्रस्ताव गर्दैछौं, जहाँ जनता जानकारीको पर्खाइमा बस्नुपर्दैन।",
+      "en": "We are not only opposing corruption. We are proposing a practical model of trustworthy governance where the public does not have to wait for information."
+    },
+    "kicker": {
+      "ne": "किन अब?",
+      "en": "Why now?"
+    },
+    "title": {
+      "ne": "अपारदर्शिता सामान्य भएको ठाउँमा लोकतन्त्र कमजोर हुन्छ",
+      "en": "Democracy weakens when opacity becomes normal"
+    }
+  },
+  "pillars": {
+    "cardOneDescription": {
+      "ne": "पार्टी वा अभियानमा आउने प्रत्येक आर्थिक स्रोत र खर्चको समयमै सार्वजनिक अद्यावधिक।",
+      "en": "Timely public updates on every financial source and every campaign expense."
+    },
+    "cardOneTitle": {
+      "ne": "खुला कोष",
+      "en": "Open Funds"
+    },
+    "cardThreeDescription": {
+      "ne": "युवा, विशेषज्ञ, समुदाय र स्थानीय समूहलाई नीति तथा अभियान प्रक्रियामा जोड्ने ढाँचा।",
+      "en": "A framework that brings youth, experts, communities, and local groups into policy and campaign work."
+    },
+    "cardThreeTitle": {
+      "ne": "खुला सहभागिता",
+      "en": "Open Participation"
+    },
+    "cardTwoDescription": {
+      "ne": "प्रमुख निर्णय, प्राथमिकता र तिनको कारण जनताले बुझ्ने भाषामा सार्वजनिक गर्ने अभ्यास।",
+      "en": "Major priorities and leadership decisions explained in language the public can understand."
+    },
+    "cardTwoTitle": {
+      "ne": "खुला निर्णय",
+      "en": "Open Decisions"
+    },
+    "description": {
+      "ne": "नीति, संगठन र नागरिक सहभागिता तीनै तहमा पारदर्शिता अनिवार्य बनाउने संरचना।",
+      "en": "A structure that makes transparency non-negotiable in policy, organisation, and citizen participation."
+    },
+    "kicker": {
+      "ne": "मुख्य आधार",
+      "en": "Core pillars"
+    },
+    "title": {
+      "ne": "तीन काम जसले आन्दोलनलाई आकार दिन्छ",
+      "en": "Three priorities shaping the movement"
+    }
+  },
+  "roadmap": {
+    "kicker": {
+      "ne": "कार्य मार्ग",
+      "en": "Working path"
+    },
+    "stepOneDescription": {
+      "ne": "जिल्ला, पालिका र समुदायस्तरमा उत्तरदायी स्वयंसेवक संरचना तयार गर्ने।",
+      "en": "Build accountable volunteer structures at district, municipality, and community level."
+    },
+    "stepOneTitle": {
+      "ne": "सार्वजनिक सदस्यता र स्थानीय टोली",
+      "en": "Public membership and local teams"
+    },
+    "stepThreeDescription": {
+      "ne": "दान, खर्च, अभियान, कार्यक्रम र प्रतिबद्धताको नियमित सार्वजनिक विवरण दिने।",
+      "en": "Publish regular public updates on donations, spending, campaigns, events, and commitments."
+    },
+    "stepThreeTitle": {
+      "ne": "डिजिटल पारदर्शिता ड्यासबोर्ड",
+      "en": "Digital transparency dashboard"
+    },
+    "stepTwoDescription": {
+      "ne": "कृषि, शिक्षा, रोजगारी, स्वास्थ्य र सुशासनका विषयमा खुला परामर्श चलाउने।",
+      "en": "Run open consultations on agriculture, education, jobs, health, and governance reform."
+    },
+    "stepTwoTitle": {
+      "ne": "नीति सुन्ने सभा",
+      "en": "Policy listening assemblies"
+    },
+    "title": {
+      "ne": "पहिलो दिनदेखि सार्वजनिक हुने काम",
+      "en": "What becomes public from day one"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+media:
+  input: assets
+  output: /assets
+
+content:
+  - name: site
+    label: Site-Wide Content
+    type: file
+    path: content/site.json
+
+  - name: settings
+    label: Public Settings
+    type: file
+    path: content/settings.json
+
+  - name: home
+    label: Home Page
+    type: file
+    path: content/pages/home.json
+
+  - name: mission
+    label: Mission Page
+    type: file
+    path: content/pages/mission.json
+
+  - name: contact
+    label: Contact Page
+    type: file
+    path: content/pages/contact.json
+
+  - name: join
+    label: Join Page
+    type: file
+    path: content/pages/join.json
+
+  - name: donation
+    label: Donation Page
+    type: file
+    path: content/pages/donation.json

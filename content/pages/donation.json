@@ -1,0 +1,140 @@
+{
+  "contactCta": {
+    "description": {
+      "ne": "विस्तृत साझेदारी, कार्यक्रम समर्थन वा गैर-नगद सहयोगबारे हामीसँग सिधै सम्पर्क गर्नुहोस्।",
+      "en": "Contact the team directly for broader partnerships, event sponsorship, or non-cash support."
+    },
+    "kicker": {
+      "ne": "ठूलो साझेदारी?",
+      "en": "Larger partnership?"
+    },
+    "title": {
+      "ne": "संस्थागत सहयोग वा साझेदारीबारे कुरा गर्न चाहनुहुन्छ?",
+      "en": "Want to discuss institutional support or partnerships?"
+    }
+  },
+  "hero": {
+    "description": {
+      "ne": "प्रत्येक योगदानलाई सार्वजनिक जिम्मेवारीको रूपमा व्यवहार गरिनेछ। सानो वा ठूलो, सबै सहयोगले पारदर्शी राजनीतिक अभ्यासलाई बल दिन्छ।",
+      "en": "Every contribution should be treated as a public responsibility. Large or small, each donation helps build a more transparent political practice."
+    },
+    "kicker": {
+      "ne": "पारदर्शी सहयोग",
+      "en": "Transparent support"
+    },
+    "title": {
+      "ne": "सहयोग पनि खुला, उपयोग पनि खुला",
+      "en": "Transparent contributions, transparent use"
+    }
+  },
+  "impact": {
+    "cardOneDescription": {
+      "ne": "स्थानीय मुद्दा सुन्ने खुला बैठक, संवाद र जनमञ्च आयोजना।",
+      "en": "Open public meetings, issue listening sessions, and citizen forums."
+    },
+    "cardOneTitle": {
+      "ne": "समुदायसभा",
+      "en": "Community forums"
+    },
+    "cardThreeDescription": {
+      "ne": "स्थानीय आयोजक, डेटा व्यवस्थापन र सार्वजनिक संवादका लागि आधारभूत तालिम।",
+      "en": "Basic training for local organisers, data handling, and public communication."
+    },
+    "cardThreeTitle": {
+      "ne": "स्वयंसेवक तालिम",
+      "en": "Volunteer training"
+    },
+    "cardTwoDescription": {
+      "ne": "दान, खर्च र अभियान प्रगति देखाउने सार्वजनिक अपडेट प्रणाली।",
+      "en": "Public updates that show donations, spending, and campaign progress."
+    },
+    "cardTwoTitle": {
+      "ne": "डिजिटल रिपोर्टिङ",
+      "en": "Digital reporting"
+    },
+    "kicker": {
+      "ne": "तपाईंको सहयोगले",
+      "en": "Your support can fund"
+    },
+    "title": {
+      "ne": "तीन ठाउँमा सीधा प्रभाव पार्छ",
+      "en": "Three direct areas of impact"
+    }
+  },
+  "methods": {
+    "bankAccountLabel": {
+      "ne": "खाता नम्बर",
+      "en": "Account number"
+    },
+    "bankHolderLabel": {
+      "ne": "खाता धारक",
+      "en": "Account holder"
+    },
+    "bankNameLabel": {
+      "ne": "बैंक",
+      "en": "Bank"
+    },
+    "bankTitle": {
+      "ne": "बैंक ट्रान्सफर",
+      "en": "Bank Transfer"
+    },
+    "description": {
+      "ne": "तलका भुक्तानी विवरण assets/js/site-config.js मा राखिएका छन्। सार्वजनिक गर्नुअघि आफ्ना आधिकारिक विवरणले बदल्नुहोस्।",
+      "en": "The payment details below come from assets/js/site-config.js. Replace them with official values before going live."
+    },
+    "esewaTitle": {
+      "ne": "eSewa",
+      "en": "eSewa"
+    },
+    "khaltiTitle": {
+      "ne": "Khalti",
+      "en": "Khalti"
+    },
+    "kicker": {
+      "ne": "सहयोगका माध्यम",
+      "en": "Ways to give"
+    },
+    "title": {
+      "ne": "आफूलाई सहज पर्ने माध्यम छान्नुहोस्",
+      "en": "Choose the channel that suits you"
+    }
+  },
+  "promise": {
+    "description": {
+      "ne": "हामी दानलाई राजनीतिक अधिकारको विषय मान्छौं, त्यसैले वित्तीय पारदर्शिता हाम्रो सार्वजनिक वाचा हो।",
+      "en": "We treat donations as a democratic trust, so financial transparency is a public promise."
+    },
+    "kicker": {
+      "ne": "आर्थिक प्रतिबद्धता",
+      "en": "Financial commitment"
+    },
+    "pointOneDescription": {
+      "ne": "संरचित डेटामा दाता वा माध्यमको ट्र्याक राखिनेछ।",
+      "en": "Track donor channel or funding source in structured records."
+    },
+    "pointOneTitle": {
+      "ne": "प्रत्येक सहयोगको रेकर्ड",
+      "en": "Every contribution recorded"
+    },
+    "pointThreeDescription": {
+      "ne": "सार्वजनिक उद्देश्यबाहेक दानको उपयोग नगर्ने आन्तरिक नियन्त्रण प्रणाली।",
+      "en": "Internal controls should prevent donations from being used outside their public purpose."
+    },
+    "pointThreeTitle": {
+      "ne": "उद्देश्य बाहिर प्रयोग हुँदैन",
+      "en": "No off-mission spending"
+    },
+    "pointTwoDescription": {
+      "ne": "कुल प्राप्ति, खर्च शीर्षक र अभियानगत उपयोग सारांश प्रकाशित गरिनेछ।",
+      "en": "Publish totals received, broad expense categories, and campaign use summaries."
+    },
+    "pointTwoTitle": {
+      "ne": "नियमित सार्वजनिक सारांश",
+      "en": "Regular public summaries"
+    },
+    "title": {
+      "ne": "दान लिने भन्दा महत्त्वपूर्ण, दानको हिसाब देखाउनु हो",
+      "en": "Showing how money is used matters as much as receiving it"
+    }
+  }
+}

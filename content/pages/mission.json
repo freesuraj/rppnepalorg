@@ -1,0 +1,152 @@
+{
+  "charter": {
+    "description": {
+      "ne": "आन्दोलनको नैतिक शक्ति, आन्तरिक पारदर्शिताबाट सुरु हुन्छ।",
+      "en": "The moral force of the movement begins with internal transparency."
+    },
+    "kicker": {
+      "ne": "जवाफदेही चार्टर",
+      "en": "Accountability charter"
+    },
+    "pointOneDescription": {
+      "ne": "प्रमुख निर्णय, प्राप्त सहयोग र खर्चको तालिका निश्चित अन्तरालमा सार्वजनिक गर्ने।",
+      "en": "Publish major decisions, contributions received, and spending at fixed intervals."
+    },
+    "pointOneTitle": {
+      "ne": "नियमित खुला प्रतिवेदन",
+      "en": "Regular open reporting"
+    },
+    "pointThreeDescription": {
+      "ne": "संभव भएसम्म वार्षिक बाह्य समीक्षा र सार्वजनिक निष्कर्ष।",
+      "en": "Where feasible, publish annual external review findings for the public."
+    },
+    "pointThreeTitle": {
+      "ne": "स्वतन्त्र लेखा परीक्षण",
+      "en": "Independent financial review"
+    },
+    "pointTwoDescription": {
+      "ne": "नेतृत्व र पदाधिकारीको सम्बन्धित व्यावसायिक वा वित्तीय हित अग्रिम खुलाउने।",
+      "en": "Leadership and office bearers declare relevant financial or professional interests in advance."
+    },
+    "pointTwoTitle": {
+      "ne": "हितको द्वन्द्व सार्वजनिक",
+      "en": "Disclosure of conflicts of interest"
+    },
+    "title": {
+      "ne": "नेतृत्वले पालना गर्ने तीन अनिवार्य मापदण्ड",
+      "en": "Three standards leadership must follow"
+    }
+  },
+  "hero": {
+    "description": {
+      "ne": "हामी यस्तो सार्वजनिक संस्कार निर्माण गर्न चाहन्छौं जहाँ शक्ति प्रयोग गर्ने प्रत्येक व्यक्ति र संस्थाले आफ्नो निर्णय, स्रोत र जवाफदेहिता खुला राख्छ।",
+      "en": "We want to build a public culture where every person and institution exercising power keeps its decisions, resources, and accountability open."
+    },
+    "kicker": {
+      "ne": "हाम्रो अभियान",
+      "en": "Our mission"
+    },
+    "title": {
+      "ne": "राजनीतिमा पारदर्शिता वैकल्पिक होइन, आधारभूत नियम हुनुपर्छ",
+      "en": "Transparency in politics should be a basic rule, not an optional promise"
+    }
+  },
+  "outro": {
+    "description": {
+      "ne": "यो अभियान एउटा पार्टीभन्दा ठूलो सार्वजनिक संस्कारको प्रस्ताव हो। यदि तपाईंलाई इमानदार र पारदर्शी राजनीतिक संरचना चाहिन्छ भने, यो ठाउँ तपाईंका लागि हो।",
+      "en": "This is bigger than one party. It is a proposal for a more honest public culture, and it needs people ready to participate."
+    },
+    "kicker": {
+      "ne": "साझा निर्माण",
+      "en": "Build together"
+    },
+    "title": {
+      "ne": "हामी दर्शक होइन, सहभागी नागरिक खोजिरहेका छौं",
+      "en": "We are looking for active citizens, not spectators"
+    }
+  },
+  "timeline": {
+    "kicker": {
+      "ne": "कार्यान्वयन चरण",
+      "en": "Implementation stages"
+    },
+    "stepFourDescription": {
+      "ne": "सफल अभ्यासलाई जिल्ला र राष्ट्रिय तहमा फैलाउने, र खुला दस्तावेज बनाउने।",
+      "en": "Expand successful practices to district and national levels and document them openly."
+    },
+    "stepFourTitle": {
+      "ne": "विस्तार",
+      "en": "Scale"
+    },
+    "stepOneDescription": {
+      "ne": "विभिन्न समुदाय, पेसागत समूह र युवासँग खुला संवादबाट प्राथमिक मुद्दा पहिचान गर्ने।",
+      "en": "Identify priority issues through open dialogue with communities, professional groups, and youth."
+    },
+    "stepOneTitle": {
+      "ne": "सुनुवाइ",
+      "en": "Listen"
+    },
+    "stepThreeDescription": {
+      "ne": "छोटा अभियान, सार्वजनिक सुनुवाइ र सामुदायिक प्रतिवेदनमार्फत मोडेल परीक्षण गर्ने।",
+      "en": "Test the model through small campaigns, public hearings, and community reports."
+    },
+    "stepThreeTitle": {
+      "ne": "प्रयोग",
+      "en": "Pilot"
+    },
+    "stepTwoDescription": {
+      "ne": "स्थानीय टोली, डेटा प्रबन्धन र सार्वजनिक रिपोर्टिङको न्यूनतम ढाँचा तयार गर्ने।",
+      "en": "Create the minimum systems for local teams, data management, and public reporting."
+    },
+    "stepTwoTitle": {
+      "ne": "संरचना",
+      "en": "Build structure"
+    },
+    "title": {
+      "ne": "विश्वास जित्ने हाम्रो चरणबद्ध योजना",
+      "en": "A phased plan to earn trust"
+    }
+  },
+  "values": {
+    "cardFourDescription": {
+      "ne": "विशेषज्ञता, समुदायको अनुभव र युवाको कल्पनाशक्ति सबैलाई एउटै मेजमा ल्याउने।",
+      "en": "Expert knowledge, community experience, and youth imagination belong at the same table."
+    },
+    "cardFourTitle": {
+      "ne": "नीति निर्माणमा नागरिक साझेदारी",
+      "en": "Citizen partnership in policy"
+    },
+    "cardOneDescription": {
+      "ne": "राजनीतिक गतिविधिमा आएको प्रत्येक स्रोत र खर्च जनताले हेर्न मिल्ने हुनुपर्छ।",
+      "en": "Every source of political funding and every major expense should be open to public scrutiny."
+    },
+    "cardOneTitle": {
+      "ne": "जनताको पैसाको सार्वजनिक हिसाब",
+      "en": "Public accounting for public money"
+    },
+    "cardThreeDescription": {
+      "ne": "स्वार्थको द्वन्द्व, अपारदर्शी वित्त र बन्द कोठे राजनीति स्वीकार्य छैन।",
+      "en": "Conflicts of interest, opaque finance, and closed-room politics are unacceptable."
+    },
+    "cardThreeTitle": {
+      "ne": "नेतृत्वमा नैतिक अनुशासन",
+      "en": "Ethical discipline in leadership"
+    },
+    "cardTwoDescription": {
+      "ne": "नीति र नेतृत्वका निर्णय किन लिइयो भन्ने कुरा स्पष्ट र प्रमाणसहित उपलब्ध हुनुपर्छ।",
+      "en": "Policies and leadership decisions should be explained clearly and backed by evidence."
+    },
+    "cardTwoTitle": {
+      "ne": "सार्वजनिक निर्णयको सार्वजनिक कारण",
+      "en": "Public reasons for public decisions"
+    },
+    "kicker": {
+      "ne": "हाम्रो मान्यता",
+      "en": "What we believe"
+    },
+    "title": {
+      "ne": "हामी किन अस्तित्वमा छौं",
+      "en": "Why we exist"
+    }
+  }
+}

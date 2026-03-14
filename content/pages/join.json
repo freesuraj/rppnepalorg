@@ -1,0 +1,166 @@
+{
+  "benefits": {
+    "cardOneDescription": {
+      "ne": "आफ्नो क्षेत्रका नागरिकसँग मुद्दा, बैठक र अभियान जोड्नुहोस्।",
+      "en": "Connect community issues, meetings, and campaigns in your area."
+    },
+    "cardOneTitle": {
+      "ne": "स्थानीय परिचालन",
+      "en": "Local mobilisation"
+    },
+    "cardThreeDescription": {
+      "ne": "स्थानीय अनुभवलाई राष्ट्रिय नीति प्रस्तावसँग जोड्न सहयोग गर्नुहोस्।",
+      "en": "Bring local experience into national policy proposals and campaign decisions."
+    },
+    "cardThreeTitle": {
+      "ne": "नीति प्रतिक्रिया",
+      "en": "Policy feedback"
+    },
+    "cardTwoDescription": {
+      "ne": "TikTok, Instagram, Facebook र X मार्फत विचार फैलाउन मद्दत गर्नुहोस्।",
+      "en": "Help spread ideas and campaigns through TikTok, Instagram, Facebook, and X."
+    },
+    "cardTwoTitle": {
+      "ne": "डिजिटल पहुँच",
+      "en": "Digital reach"
+    },
+    "kicker": {
+      "ne": "किन सहभागी हुने?",
+      "en": "Why join?"
+    },
+    "title": {
+      "ne": "तपाईंले दिन सक्ने योगदान",
+      "en": "Where your contribution matters"
+    }
+  },
+  "form": {
+    "consent": {
+      "ne": "म राष्ट्रिय पारदर्शिता पार्टी नेपालसँग अभियान, कार्यक्रम र स्वयंसेवा सम्बन्धी सम्पर्क प्राप्त गर्न सहमत छु।",
+      "en": "I agree to receive campaign, event, and volunteer coordination messages from National Transparency Party Nepal."
+    },
+    "description": {
+      "ne": "यो फारम सीधै सुरक्षित डेटाबेसमा जान्छ, जसले आयोजकलाई द्रुत समन्वय गर्न मद्दत गर्छ।",
+      "en": "This form submits directly into a secure database, making it easy for organisers to coordinate quickly."
+    },
+    "emailLabel": {
+      "ne": "इमेल",
+      "en": "Email"
+    },
+    "emailPlaceholder": {
+      "ne": "name@example.com",
+      "en": "name@example.com"
+    },
+    "facebookLabel": {
+      "ne": "Facebook प्रोफाइल",
+      "en": "Facebook profile"
+    },
+    "facebookPlaceholder": {
+      "ne": "https://facebook.com/...",
+      "en": "https://facebook.com/..."
+    },
+    "instagramLabel": {
+      "ne": "Instagram प्रोफाइल",
+      "en": "Instagram profile"
+    },
+    "instagramPlaceholder": {
+      "ne": "https://instagram.com/...",
+      "en": "https://instagram.com/..."
+    },
+    "kicker": {
+      "ne": "सदस्यता फारम",
+      "en": "Membership form"
+    },
+    "nameLabel": {
+      "ne": "पुरा नाम",
+      "en": "Full name"
+    },
+    "namePlaceholder": {
+      "ne": "जस्तै: सुशिला गुरुङ",
+      "en": "Example: Sushila Gurung"
+    },
+    "phoneLabel": {
+      "ne": "फोन नम्बर",
+      "en": "Phone number"
+    },
+    "phonePlaceholder": {
+      "ne": "+977...",
+      "en": "+977..."
+    },
+    "privacy": {
+      "ne": "तपाईंको जानकारी आयोजक समन्वयका लागि मात्र प्रयोग हुनेछ।",
+      "en": "Your information will be used only for organiser coordination."
+    },
+    "submit": {
+      "ne": "विवरण पठाउनुहोस्",
+      "en": "Submit details"
+    },
+    "tiktokLabel": {
+      "ne": "TikTok प्रोफाइल",
+      "en": "TikTok profile"
+    },
+    "tiktokPlaceholder": {
+      "ne": "https://tiktok.com/@...",
+      "en": "https://tiktok.com/@..."
+    },
+    "title": {
+      "ne": "तपाईंको आधारभूत विवरण पठाउनुहोस्",
+      "en": "Send your basic details"
+    },
+    "xLabel": {
+      "ne": "X प्रोफाइल",
+      "en": "X profile"
+    },
+    "xPlaceholder": {
+      "ne": "https://x.com/...",
+      "en": "https://x.com/..."
+    }
+  },
+  "hero": {
+    "description": {
+      "ne": "हामीलाई देशभरका पारदर्शिता समर्थक नागरिक, स्वयंसेवक, डिजिटल प्रचारक र स्थानीय संयोजक चाहिन्छ।",
+      "en": "We need transparency-minded citizens, volunteers, digital advocates, and local organisers across the country."
+    },
+    "kicker": {
+      "ne": "आन्दोलनमा सहभागी हुनुहोस्",
+      "en": "Join the movement"
+    },
+    "title": {
+      "ne": "नाम मात्र होइन, जनआधारित संगठन निर्माणमा आफ्नो भूमिका दिनुहोस्",
+      "en": "Offer more than your name. Help build a people-powered organisation."
+    }
+  },
+  "sidecard": {
+    "description": {
+      "ne": "स्थानीय र डिजिटल दुवै तहमा स्वयंसेवक नेटवर्क बनाउँदा उचित व्यक्तिलाई उचित भूमिकामा जोड्न सजिलो हुन्छ।",
+      "en": "A growing volunteer network works better when we can match the right people to the right roles across local and digital organising."
+    },
+    "pointOneDescription": {
+      "ne": "प्राथमिक समन्वय र स्थानीय टोली परिचयका लागि।",
+      "en": "For basic coordination and local team follow-up."
+    },
+    "pointOneTitle": {
+      "ne": "नाम र सम्पर्क",
+      "en": "Name and contact"
+    },
+    "pointThreeDescription": {
+      "ne": "आवश्यक सन्देश मात्र पठाउन र गैरजरुरी प्रयोग रोक्न।",
+      "en": "To ensure outreach stays relevant and respectful."
+    },
+    "pointThreeTitle": {
+      "ne": "सहमति",
+      "en": "Consent"
+    },
+    "pointTwoDescription": {
+      "ne": "डिजिटल अभियानमा सहयोग गर्न चाहने समर्थक चिन्हाउन।",
+      "en": "To identify supporters interested in helping with digital campaigns."
+    },
+    "pointTwoTitle": {
+      "ne": "सामाजिक प्रोफाइल",
+      "en": "Social profiles"
+    },
+    "title": {
+      "ne": "हामीले यो जानकारी किन माग्छौं",
+      "en": "Why we ask for this information"
+    }
+  }
+}

@@ -1,4 +1,9 @@
-(function () {
+(async function () {
+  const siteApi = window.NTP_SITE || {};
+  if (siteApi.ready && typeof siteApi.ready.then === "function") {
+    await siteApi.ready;
+  }
+
   const form = document.getElementById("join-form");
   const statusElement = document.getElementById("form-status");
 
@@ -6,7 +11,6 @@
     return;
   }
 
-  const siteApi = window.NTP_SITE || {};
   const supabaseConfig = (window.NTP_CONFIG && window.NTP_CONFIG.supabase) || {};
   const tableName = supabaseConfig.table || "movement_signups";
   let lastStatusKey = "";

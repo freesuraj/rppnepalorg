@@ -5,6 +5,7 @@ A bilingual static website for `National Transparency Party Nepal`, designed for
 ## What is included
 
 - A designed multi-page public website: Home, Our Mission, Contact Us, Join the Movement, Donation
+- CMS-editable content files for non-technical editors
 - Client-side language switching with Nepali default and persistent language preference
 - A GitHub Pages-friendly join form that submits directly to Supabase via REST
 - A Supabase schema with Row Level Security for public inserts
@@ -17,9 +18,14 @@ A bilingual static website for `National Transparency Party Nepal`, designed for
 - `contact.html`
 - `join.html`
 - `donation.html`
+- `content/site.json`
+- `content/settings.json`
+- `content/pages/*.json`
+- `.pages.yml`
 - `assets/css/styles.css`
-- `assets/js/site-content.js`
 - `assets/js/site-config.js`
+- `assets/js/site-config.example.js`
+- `assets/js/site.js`
 - `assets/js/join.js`
 - `supabase/schema.sql`
 - `scripts/serve.py`
@@ -35,17 +41,29 @@ python3 scripts/serve.py
 
 Then open `http://127.0.0.1:8000`.
 
-## Configure organisation details
+## Edit content with Pages CMS
 
-Edit `assets/js/site-config.js` and replace the placeholder values:
+The site content is now stored in editable JSON files:
 
-- Official email
-- Official phone number
-- Office address
-- Social media links
-- Donation channels
+- `content/site.json` for shared text like navigation, footer, and form messages
+- `content/settings.json` for public contact and donation details
+- `content/pages/*.json` for each page's bilingual content
+
+To let a non-technical editor manage the site:
+
+1. Open `https://app.pagescms.org`
+2. Sign in with the GitHub account that has access to this repository
+3. Pages CMS will read `.pages.yml` and expose the editable files listed above
+
+This keeps layout and code in the repo, but moves day-to-day wording changes into content files.
+
+## Configure runtime settings
+
+`assets/js/site-config.js` now only holds the public Supabase browser config:
+
 - Supabase project URL
 - Supabase public anon key
+- Table name
 
 `assets/js/site-config.example.js` is included as a clean reference copy.
 
@@ -86,7 +104,8 @@ Because the site is static, the join form depends on Supabase being configured b
 ## Notes
 
 - Nepali is the default language.
-- The contact and donation sections are config-driven so you can change public details without rewriting page markup.
+- Public contact and donation details are loaded from `content/settings.json`.
+- Shared and page-specific translations are loaded from `content/site.json` and `content/pages/*.json`.
 - The join form includes a hidden honeypot field for a minimal spam check, but a public form can still attract abuse. If you need stronger protection later, add CAPTCHA or route submissions through a server-side function.
 
 ## Last Updated

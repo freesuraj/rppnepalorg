@@ -1,11 +1,21 @@
 (function () {
-  const translations = window.NTP_TRANSLATIONS || {};
-  const config = window.NTP_CONFIG || {};
   const defaultLanguage = "ne";
   const languageStorageKey = "ntp-language";
+  const runtimeConfig = window.NTP_CONFIG || {};
+  const pageKey = document.body.dataset.page;
+  let translations = {};
+  let publicSettings = {};
+  let resolveReady;
+  const ready = new Promise((resolve) => {
+    resolveReady = resolve;
+  });
 
   function hasOwn(object, key) {
     return Object.prototype.hasOwnProperty.call(object, key);
+  }
+
+  function isPlainObject(value) {
+    return Boolean(value) && typeof value === "object" && !Array.isArray(value);
   }
 
   function getByPath(object, path) {
@@ -15,6 +25,69 @@
       }
       return undefined;
     }, object);
+  }
+
+  function isLocalizedValue(value) {
+    return (
+      isPlainObject(value) &&
+      hasOwn(value, "ne") &&
+      hasOwn(value, "en") &&
+      Object.keys(value).every((key) => key === "ne" || key === "en")
+    );
+  }
+
+  function extractLanguageValue(value, language) {
+    if (isLocalizedValue(value)) {
+      return value[language];
+    }
+
+    if (Array.isArray(value)) {
+      return value.map((entry) => extractLanguageValue(entry, language));
+    }
+
+    if (!isPlainObject(value)) {
+      return value;
+    }
+
+    return Object.fromEntries(
+      Object.entries(value).map(([key, entry]) => [
+        key,
+        extractLanguageValue(entry, language)
+      ])
+    );
+  }
+
+  async function fetchJson(filePath) {
+    const response = await window.fetch(filePath, {
+      headers: { Accept: "application/json" }
+    });
+
+    if (!response.ok) {
+      throw new Error(`Failed to load ${filePath}: ${response.status}`);
+    }
+
+    return response.json();
+  }
+
+  async function loadContent() {
+    const [siteContent, pageContent, settings] = await Promise.all([
+      fetchJson("content/site.json"),
+      fetchJson(`content/pages/${pageKey}.json`),
+      fetchJson("content/settings.json")
+    ]);
+
+    translations = {
+      ne: {
+        ...extractLanguageValue(siteContent, "ne"),
+        [pageKey]: extractLanguageValue(pageContent, "ne")
+      },
+      en: {
+        ...extractLanguageValue(siteContent, "en"),
+        [pageKey]: extractLanguageValue(pageContent, "en")
+      }
+    };
+
+    publicSettings = settings;
   }
 
   function translate(path, language) {
@@ -29,6 +102,13 @@
   function getCurrentLanguage() {
     const stored = window.localStorage.getItem(languageStorageKey);
     return stored && hasOwn(translations, stored) ? stored : defaultLanguage;
+  }
+
+  function getMergedConfig() {
+    return {
+      ...publicSettings,
+      supabase: runtimeConfig.supabase || {}
+    };
   }
 
   function setCurrentLanguage(language) {
@@ -84,7 +164,7 @@
   function renderConfigValues(language) {
     document.querySelectorAll("[data-config]").forEach((element) => {
       const path = element.dataset.config;
-      const rawValue = getByPath(config, path);
+      const rawValue = getByPath(getMergedConfig(), path);
       const stringValue =
         typeof rawValue === "string" && rawValue.trim() ? rawValue.trim() : "";
       const type = element.dataset.configType || "";
@@ -168,13 +248,25 @@
   window.NTP_SITE = {
     translate,
     getCurrentLanguage,
+    ready,
     getConfig(path) {
-      return getByPath(config, path);
+      return getByPath(getMergedConfig(), path);
     }
   };
 
   setupNavigation();
   setupLanguageSwitch();
-  applyTranslations(getCurrentLanguage());
-  renderConfigValues(getCurrentLanguage());
+
+  (async function init() {
+    try {
+      await loadContent();
+      applyTranslations(getCurrentLanguage());
+      renderConfigValues(getCurrentLanguage());
+    } catch (error) {
+      console.error("Failed to load site content", error);
+    } finally {
+      resolveReady();
+      document.dispatchEvent(new CustomEvent("ntp:ready"));
+    }
+  })();
 })();
