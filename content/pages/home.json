@@ -9,7 +9,7 @@
       "en": "Direct coordination"
     },
     "description": {
-      "ne": "सदस्य बन्नुहोस्, आर्थिक साथ दिनुहोस्, वा हामीलाई सिधै सम्पर्क गर्नुहोस्।",
+      "ne": "सदस्य बन्नुहोस्, आर्थिक सहयोग गर्नुहोस, वा हामीलाई सिधै सम्पर्क गर्नुहोस्।",
       "en": "Join as a member, support financially, or contact the team directly."
     },
     "donationDescription": {
@@ -39,7 +39,7 @@
   },
   "hero": {
     "description": {
-      "ne": "राष्ट्रिय पारदर्शिता पार्टी नेपाल सार्वजनिक स्रोत, सार्वजनिक निर्णय र सार्वजनिक विश्वासबीचको दूरी घटाउन बनेको अभियान हो। हामी यस्तो राजनीति निर्माण गर्न चाहन्छौं जसले आफूलाई जनताबाट लुकाउँदैन।",
+      "ne": "राष्ट्रिय पारदर्शी पार्टी नेपाल सार्वजनिक स्रोत, सार्वजनिक निर्णय र सार्वजनिक नेतृत्वबीचको दूरी घटाउन बनेको अभियान हो। हामी यस्तो उत्तरदायी नेतृत्व निर्माण गर्न चाहन्छौं जसले आफूलाई आफुलाई दिइएको बिश्वास कायम राख्न सकोस।",
       "en": "National Transparency Party Nepal is building a political movement that closes the gap between public money, public decisions, and public trust. We believe politics should never hide from the people it serves."
     },
     "kicker": {
@@ -97,7 +97,7 @@
   },
   "manifesto": {
     "description": {
-      "ne": "हामी भ्रष्टाचारको विरोध मात्र गर्दै छैनौं। हामी विश्वास योग्य शासनको नमुना प्रस्ताव गर्दैछौं, जहाँ जनता जानकारीको पर्खाइमा बस्नुपर्दैन।",
+      "ne": "हामी भ्रष्टाचारको विरोध मात्र गर्दै छैनौं, हामी विश्वास योग्य शासनको नमुना प्रस्ताव गर्दैछौं, जहाँ जनता जानकारीको पर्खाइमा बस्नुपर्दैन।",
       "en": "We are not only opposing corruption. We are proposing a practical model of trustworthy governance where the public does not have to wait for information."
     },
     "kicker": {
@@ -105,7 +105,7 @@
       "en": "Why now?"
     },
     "title": {
-      "ne": "अपारदर्शिता सामान्य भएको ठाउँमा लोकतन्त्र कमजोर हुन्छ",
+      "ne": "अपारदर्शिताको सामान्यकरण भएको ठाउँमा लोकतन्त्र कमजोर हुन्छ",
       "en": "Democracy weakens when opacity becomes normal"
     }
   },
